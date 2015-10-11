@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamSpark.AzureDay.SocialCounter.FacebookCounter", "TeamSpark.AzureDay.SocialCounter.FacebookCounter\TeamSpark.AzureDay.SocialCounter.FacebookCounter.csproj", "{EC335593-A996-4635-87B5-3869774F7835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamSpark.AzureDay.SocialCounter.TwitterCounter", "TeamSpark.AzureDay.SocialCounter.TwitterCounter\TeamSpark.AzureDay.SocialCounter.TwitterCounter.csproj", "{B02B25D9-C080-4EE2-8A06-FCEB65078D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamSpark.AzureDay.SocialCounter.GooglePlusCounter", "TeamSpark.AzureDay.SocialCounter.GooglePlusCounter\TeamSpark.AzureDay.SocialCounter.GooglePlusCounter.csproj", "{F6AFF5E6-1757-4C36-BA84-F7D508EF389B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamSpark.AzureDay.SocialCounter.InstagramCounter", "TeamSpark.AzureDay.SocialCounter.InstagramCounter\TeamSpark.AzureDay.SocialCounter.InstagramCounter.csproj", "{BB8C3CB3-EEE6-4B59-8ACA-6F5B70EB7B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamSpark.AzureDay.SocialCounter.Shared", "TeamSpark.AzureDay.SocialCounter.Shared\TeamSpark.AzureDay.SocialCounter.Shared.csproj", "{5B24F38F-EDEF-4DB1-A936-7838AEF6499C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B7FA0A3F-98FC-4C0D-BF39-60066F267348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebJob", "WebJob", "{78F0F613-70FC-4902-802C-E4DF3C6EADC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC335593-A996-4635-87B5-3869774F7835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC335593-A996-4635-87B5-3869774F7835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC335593-A996-4635-87B5-3869774F7835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC335593-A996-4635-87B5-3869774F7835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02B25D9-C080-4EE2-8A06-FCEB65078D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02B25D9-C080-4EE2-8A06-FCEB65078D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02B25D9-C080-4EE2-8A06-FCEB65078D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02B25D9-C080-4EE2-8A06-FCEB65078D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6AFF5E6-1757-4C36-BA84-F7D508EF389B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6AFF5E6-1757-4C36-BA84-F7D508EF389B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6AFF5E6-1757-4C36-BA84-F7D508EF389B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6AFF5E6-1757-4C36-BA84-F7D508EF389B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB8C3CB3-EEE6-4B59-8ACA-6F5B70EB7B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8C3CB3-EEE6-4B59-8ACA-6F5B70EB7B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8C3CB3-EEE6-4B59-8ACA-6F5B70EB7B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8C3CB3-EEE6-4B59-8ACA-6F5B70EB7B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B24F38F-EDEF-4DB1-A936-7838AEF6499C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B24F38F-EDEF-4DB1-A936-7838AEF6499C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B24F38F-EDEF-4DB1-A936-7838AEF6499C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B24F38F-EDEF-4DB1-A936-7838AEF6499C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC335593-A996-4635-87B5-3869774F7835} = {78F0F613-70FC-4902-802C-E4DF3C6EADC4}
+		{B02B25D9-C080-4EE2-8A06-FCEB65078D28} = {78F0F613-70FC-4902-802C-E4DF3C6EADC4}
+		{F6AFF5E6-1757-4C36-BA84-F7D508EF389B} = {78F0F613-70FC-4902-802C-E4DF3C6EADC4}
+		{BB8C3CB3-EEE6-4B59-8ACA-6F5B70EB7B9A} = {78F0F613-70FC-4902-802C-E4DF3C6EADC4}
+		{5B24F38F-EDEF-4DB1-A936-7838AEF6499C} = {B7FA0A3F-98FC-4C0D-BF39-60066F267348}
+	EndGlobalSection
+EndGlobal
