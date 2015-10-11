@@ -6,3 +6,7 @@ https://azure.microsoft.com/en-us/documentation/articles/web-sites-create-web-jo
 
 Azure WebJobs documentation resources
 https://azure.microsoft.com/en-us/documentation/articles/websites-webjobs-resources/
+
+## Twitter
+Twitter REST API
+https://dev.twitter.com/rest/public
