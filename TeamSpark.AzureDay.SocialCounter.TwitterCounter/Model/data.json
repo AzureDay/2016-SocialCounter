@@ -1,0 +1,20 @@
+﻿{
+    "statuses": [
+        {
+            "created_at": "Sat Nov 07 12:34:18 +0000 2015",
+            "id": 662971335241519100,
+            "id_str": "662971335241519104",
+            "text": "El #viernes13 la primera charla será de @robergonzalezg  \"Tengo un LEGO para montar ¿Que piezas utilizo?\" #azureDay #azure",
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "user": {
+                "id": 2887010717,
+                "id_str": "2887010717",
+                "name": "Coruña Developers",
+                "screen_name": "CorunaDev",
+                "location": "A Coruña",
+                "lang": "es"
+            },
+            "lang": "es"
+        }
+    ]
+}

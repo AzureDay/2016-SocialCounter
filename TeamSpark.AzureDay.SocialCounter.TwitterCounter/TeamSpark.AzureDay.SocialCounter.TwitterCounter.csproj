@@ -33,7 +33,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -71,12 +74,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Extensions.cs" />
+    <Compile Include="Core\Twitter.cs" />
+    <Compile Include="Core\TwitterHelper.cs" />
+    <Compile Include="Model\TwitterModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Functions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Model\data.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

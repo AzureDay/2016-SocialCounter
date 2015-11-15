@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Azure.WebJobs;
+using TeamSpark.AzureDay.SocialCounter.TwitterCounter.Core;
 
 namespace TeamSpark.AzureDay.SocialCounter.TwitterCounter
 {
@@ -14,9 +15,17 @@ namespace TeamSpark.AzureDay.SocialCounter.TwitterCounter
         // AzureWebJobsDashboard and AzureWebJobsStorage
         static void Main()
         {
-            var host = new JobHost();
-            // The following code ensures that the WebJob will be running continuously
-            host.RunAndBlock();
+            Twitter twitter = new Twitter();
+            var data = twitter.GetTweets("#azureDay");
+
+            foreach (var item in data.GroupBy(c=>c.user.name))
+            {
+                Console.WriteLine("User Name: {0}, count twwits {1}", item.Key, item.Count());
+            }
+            Console.ReadLine();
+            //var host = new JobHost();
+            //// The following code ensures that the WebJob will be running continuously
+            //host.RunAndBlock();
         }
     }
 }
